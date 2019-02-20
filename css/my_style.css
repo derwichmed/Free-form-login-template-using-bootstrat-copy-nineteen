@@ -1,0 +1,58 @@
+body,html{
+    height: 100%
+}
+body{
+    background-image: linear-gradient(to top right,#ca9062,#f6d59f);
+}
+.form_login{
+    padding-top: 100px
+}
+.form_login > div{
+    border-radius: 5px;
+    background-color: rgba(226,223,216,.500);
+}
+.form_login footer > div{
+    position: relative;
+    height: 250px;
+}
+.form_login footer .login_btn{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    width: 100%;
+    margin: 0px                             
+}
+.form_login footer .login_btn button{
+    height: 80px;
+    width: 180px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url("../img/login_image.png");
+    background-size: 100% 100%;
+    color: white;
+    font-weight: bold
+}
+.form_login section .input-group{
+    width: 100%;
+    border: #c9c5ba 1px solid;
+}
+.form_login section .form-control{
+    border: none;
+    background-color: white;
+    height: 50px
+}
+.form_login section .input-group-text{
+    background-color: #544f3b;
+    border: none;
+    height: 50px
+}
+.form_login section .input-group-text img{
+    width: 25px;
+    height: 25px
+}
+
+
+
